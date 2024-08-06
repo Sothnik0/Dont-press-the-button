@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#Main {
+    display: flex;
+    justify-content: center;
+    padding-top: 23.5%;
+}
+
+#ButtonLair{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#button {
+    padding: 5px;
+    border-radius: 5%;
+    
+    background-color: black;
+    border-color: white;
+    color: azure;
+
+    transition: 0.2s;
+}
+
+#button:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
