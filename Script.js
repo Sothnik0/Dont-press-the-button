@@ -50,23 +50,18 @@ Button.addEventListener('click', function(event){
 console.log(rng)
     switch (rng) {
         case 1:
-            Button.backgroundColor = '#51e2f5'
             bg.style.backgroundColor = '#51e2f5'
             break;
         case 2:
-            Button.backgroundColor = '#d0bdf4'
             bg.style.backgroundColor = '#d0bdf4'
             break;
         case 3:
-            Button.backgroundColor = '#f75990'
             bg.style.backgroundColor = '#f75990'
             break;
         case 4:
-            Button.backgroundColor = '#e8f9fd'
             bg.style.backgroundColor = '#e8f9fd'
             break;
         case 5:
-            Button.backgroundColor = '#59ce8f'
             bg.style.backgroundColor = '#59ce8f'
             break;
     }
